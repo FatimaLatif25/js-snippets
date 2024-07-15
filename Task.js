@@ -1,11 +1,11 @@
 //Question 01
 // Write a function to reverse a string?
 const reverseString = (str) => {
- let reverse_sentense = ''
+ let reverse = ''
  for (let i=str.length-1; i>=0; i--){
-    reverse_sentense +=  str[i]
+    reverse +=  str[i]
  }
- return reverse_sentense
+ return reverse
 }
 console.log(reverseString("JavaScript"))
 
